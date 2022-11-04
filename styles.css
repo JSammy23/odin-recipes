@@ -1,0 +1,28 @@
+body {
+    background-color: #616161;
+    color: aliceblue;
+}
+
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    max-width: 1000px;
+    font-size: large;
+
+}
+
+.left {
+    margin-right: 120px;
+    
+}
+
+a {
+    color: aqua;
+}
+
