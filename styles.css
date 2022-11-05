@@ -1,28 +1,33 @@
 body {
-    background-color: #616161;
-    color: aliceblue;
+  background-color: #616161;
+  color: aliceblue;
 }
 
-
-
 .center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 p {
-    max-width: 1000px;
-    font-size: large;
-
+  max-width: 1000px;
+  font-size: large;
 }
 
 .left {
-    margin-right: 120px;
-    
+  margin-right: 120px;
+  border-bottom: 3px solid black;
+}
+
+.wrapper {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.mid {
+  display: block;
 }
 
 a {
-    color: aqua;
+  color: aqua;
 }
-
