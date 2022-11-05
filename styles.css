@@ -3,6 +3,10 @@ body {
   color: aliceblue;
 }
 
+img {
+  border-radius: 30px;
+}
+
 .center {
   display: flex;
   align-items: center;
@@ -16,6 +20,8 @@ p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .left {
@@ -28,6 +34,7 @@ p {
   margin-right: 120px;
   background-color: rgb(226 157 52);
   border-radius: 30px;
+  color: rgb(72 55 43);
 }
 .left.wrapper {
   color: rgb(72 55 43);
@@ -35,6 +42,10 @@ p {
 
 .one.wrapper {
   padding-left: 80px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .mid {
@@ -47,4 +58,19 @@ a {
 
 #cobb {
   background-image: url(img/cobbs.jpeg);
+}
+#one {
+  background-color: rgb(72 55 43);
+}
+#two {
+  background-image: url(img/veggies.jpeg);
+  background-size: cover;
+}
+li {
+  margin-top: 10px;
+}
+
+header {
+  height: 100px;
+  text-align: center;
 }
